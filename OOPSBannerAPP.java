@@ -1,6 +1,6 @@
 class OOPSBannerApp {
     public static void main(String[] args) {
-        //UC1
+        // UC1
         System.out.println("  OOPS ");
 
         System.out.println();
@@ -9,7 +9,7 @@ class OOPSBannerApp {
         System.out.println();
         System.out.println();
 
-        //UC2
+        // UC2
         System.out.println(" *** " + "   *** " + "  ****** " + "  ***** ");
         System.out.println("** **" + "  ** **" + "  **   **" + "  **   **");
         System.out.println("** **" + "  ** **" + "  **   **" + "  **     ");
@@ -24,14 +24,14 @@ class OOPSBannerApp {
         System.out.println();
         System.out.println();
 
-        //UC3
-        System.out.println(String.join("  "," *** " , "    *** " , "  ****** " , "  ***** "));
-        System.out.println(String.join("  ","** **" , "   ** **" , "  **   **"  ,"  **   **"));
-        System.out.println(String.join("  ","** **" , "   ** **" , "  **   **" , " **     "));
-        System.out.println(String.join("  ","** **" , "   ** **" , "  ******" , "   ***** "));
-        System.out.println(String.join("  ","** **" , "   ** **" , "  **" , "           **"));
-        System.out.println(String.join("  ","** **" , "   ** **" , "  **" , "       **   **"));
-        System.out.println(String.join("  "," *** " , "    *** " , "  **" , "        ***** "));
+        // UC3
+        System.out.println(String.join("  ", " *** ", "    *** ", "  ****** ", "  ***** "));
+        System.out.println(String.join("  ", "** **", "   ** **", "  **   **", "  **   **"));
+        System.out.println(String.join("  ", "** **", "   ** **", "  **   **", " **     "));
+        System.out.println(String.join("  ", "** **", "   ** **", "  ******", "   ***** "));
+        System.out.println(String.join("  ", "** **", "   ** **", "  **", "           **"));
+        System.out.println(String.join("  ", "** **", "   ** **", "  **", "       **   **"));
+        System.out.println(String.join("  ", " *** ", "    *** ", "  **", "        ***** "));
 
         System.out.println();
         System.out.println();
@@ -39,7 +39,7 @@ class OOPSBannerApp {
         System.out.println();
         System.out.println();
 
-        //UC4
+        // UC4
         String[] lines = new String[7];
 
         lines[0] = String.join(" ", " *** ", " *** ", " ****** ", "  ***** ");
@@ -53,5 +53,27 @@ class OOPSBannerApp {
         for (String line : lines) {
             System.out.println(line);
         }
+
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
+        // UC5
+        String[] lines01 = {
+                String.join(" ", " *** ", " *** ", " ****** ", "  ***** "),
+                String.join(" ", "** **", "** **", "**   **", "  **   **"),
+                String.join(" ", "** **", "** **", "**   **", " **     "),
+                String.join(" ", "** **", "** **", "******", "  ***** "),
+                String.join(" ", "** **", "** **", "**", "          **"),
+                String.join(" ", "** **", "** **", "**", "      **   **"),
+                String.join(" ", " *** ", " *** ", "**", "       ***** ")
+        };
+
+        for (String line : lines01) {
+            System.out.println(line);
+        }
+
     }
 }
